@@ -1,0 +1,384 @@
+/* ------------------------------------------------------------------------ */
+
+/* background-color: rgb(250, 205, 70); */
+
+html {
+  width: 100%;
+  height: 100vh;  
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(18, 33, 52);
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.App {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(27, 30, 47);
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------ */
+
+.summary-content, .main-content {
+  height: 100%;
+  width: 100%;
+}
+
+.summary-content {  
+  background-color: rgb(27, 30, 47);
+  color: white;
+}
+
+.header {
+  background-color: white;
+  color: black;
+  border: 3px solid darkcyan;
+  border-left: 15px solid darkcyan;
+  border-right: 15px solid darkcyan;
+}
+
+.header-txt {
+  margin: 0px;
+}
+
+.info-btn {
+  width: 100%;
+  text-align: center;  
+  font-weight: bold;
+  background-color: darkcyan;
+  color: whitesmoke;  
+  border: 1px solid rgb(18, 33, 52);
+  transition: 0.15s ease-in-out;
+}
+
+.info-btn:hover {
+  background-color: dodgerblue;
+}
+
+.accordion {
+  border: 0px;
+  width: 97%;
+}
+
+.accordion-item {
+  border: 0px;
+}
+
+.accordian-btn {
+  width: 100%;
+}
+
+.accordion-body {
+  background-color: darkcyan;
+  color: white;
+}
+
+.accordian-block {
+  padding: 1%;
+  background-color: white;
+  color: black;
+}
+
+.slide {  
+  margin: auto;
+  border-radius: 15px;
+  background-color: lightgray;
+  color: black;
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+.block-elem {
+  display: block;
+  margin: auto;
+}
+
+.flex-elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relative-elem {
+  position: relative;
+}
+
+/* ------------------------------------------------------------------------ */
+
+@media (max-width: 420px) {
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  h6 {
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  .summary-content, .main-content {
+    padding: 2%;
+  }
+
+  .main-content {
+    margin-top: 2%;
+  }
+  
+  .profile-pic, .images, .recognition {
+    border-radius: 10%;
+    border: 3px solid lightgray;
+  }
+  
+  .profile-pic {
+    width: 80%;
+    height: 80%;
+  }
+
+  .images {
+    width: 65%;
+    height: 65%;    
+  }
+
+  .recognition {
+    width: 100%;
+    height: 100%;    
+  }
+
+  .education {
+    width: 100%;
+    height: 100%;  
+  }
+
+  .certi {
+    width: 50%;
+    height: 50%;
+  }
+  
+  .data-block {
+    padding: 0.75%;
+  }
+
+  .slide {
+    width: 100%;
+    padding: 2%;
+  }
+  
+  .header {
+    padding: 3%;
+  }
+
+  .header-txt {
+    padding: 1.5%;
+  }
+  
+  .info-btn {
+    padding: 3%;
+  }
+
+  .accordian-btn {
+    margin-top: 2%;
+  }
+
+}
+
+@media (min-width: 420px) and (max-width: 840px) {
+
+  .summary-content, .main-content {
+    padding: 1%;
+  }
+  
+  .profile-pic, .images, .recognition {
+    border-radius: 10%;
+    border: 3px solid lightgray;
+  }
+  
+  .profile-pic {
+    width: 65%;
+    height: 65%;
+  }
+
+  .images {
+    width: 50%;
+    height: 50%;
+  }
+
+  .recognition {
+    width: 65%;
+    height: 65%;
+  }
+
+  .education, .certi {
+    width: 100%;
+    height: 100%;  
+  }
+
+  .slide {
+    width: 85%;
+    padding: 2%;
+  }
+  
+  .data-block {
+    padding: 0.5%;
+  }
+  
+  .header {
+    padding: 1%;    
+  }
+
+  .header-txt {
+    padding: 0.75%;
+  }
+  
+  .info-btn {
+    padding: 1%;
+  }
+
+  .accordian-btn {
+    margin-top: 1%;
+  }
+
+}
+
+@media (min-width: 840px) and (max-width: 1260px) {
+
+  .summary-content, .main-content {
+    padding: 1%;
+  }
+  
+  .profile-pic, .images, .recognition {
+    border-radius: 10%;
+    border: 3px solid lightgray;
+  }
+  
+  .profile-pic {
+    width: 100%;
+    height: 100%;
+  }
+
+  .images {
+    width: 30%;
+    height: 30%;
+  }
+
+  .recognition {
+    width: 35%;
+    height: 35%;
+  }
+
+  .education, .certi {
+    width: 80%;
+    height: 80%;  
+  }
+
+  .slide {
+    width: 90%;
+    padding: 2%;
+  }
+
+  .data-block {
+    padding: 0.5%;
+  }
+  
+  .header {
+    padding: 1%;
+  }
+
+  .header-txt {
+    padding: 0.75%;
+  }
+
+  .info-btn {
+    padding: 1%;
+  }
+
+  .accordian-btn {
+    margin-top: 0.25%;
+  }
+
+}
+
+@media (min-width: 1260px) {
+
+  .summary-content, .main-content {
+    padding: 1%;
+  }
+  
+  .profile-pic, .images, .recognition {
+    border-radius: 10%;
+    border: 3px solid lightgray;
+  }
+  
+  .profile-pic {
+    width: 75%;
+    height: 75%;
+  }
+
+  .images {
+    width: 25%;
+    height: 25%;
+  }
+
+  .recognition {
+    width: 18%;
+    height: 18%;
+  }
+
+  .education, .certi {
+    width: 50%;
+    height: 50%;  
+  }
+
+  .slide {
+    width: 90%;
+    padding: 1%;
+  }
+
+  .header {
+    padding: 1%;
+  }
+
+  .header-txt {
+    padding: 0.25%;
+  }
+  
+  .info-btn {
+    padding: 1%;
+  }
+
+  .accordian-btn {
+    margin-top: 0.1%;
+  }
+
+}
