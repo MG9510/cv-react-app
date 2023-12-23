@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Summary />
       <div className='flex-elem main-content'>
-        <div class="accordion" id="mainContent">
+        <div className="accordion" id="mainContent">
           <WorkExp />
           <WorkAchievements />
           <Education />

@@ -1,18 +1,19 @@
 import React from 'react';
 import { Swiper, SwiperSlide  } from 'swiper/react';
-import { Pagination } from 'swiper';
+import { Navigation, Pagination } from 'swiper';
 
+import SwiperNavBtn from './c5_Swiper_NavBtns';
 import coursera from '../assets/images/coursera.png'
 
-import 'swiper/css/bundle';
 import '../css/App.css';
+import 'swiper/css/bundle';
 
 function Certifications() {
 
     return (
-        <div class="accordion-item">
-            <h3 class="accordion-header" id="courses">
-              <button class="accordion-button collapsed header" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCourses" aria-expanded="true" aria-controls="collapseCourses">
+        <div className="accordion-item">
+            <h3 className="accordion-header" id="courses">
+              <button className="accordion-button collapsed header" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCourses" aria-expanded="true" aria-controls="collapseCourses">
                 <div className='flex-elem accordian-btn' style={{justifyContent:"start"}}>
                   <div className='flex-elem' style={{marginLeft:"3%"}}>
                     <h3><i className="fa-solid fa-certificate"></i></h3>
@@ -23,15 +24,15 @@ function Certifications() {
                 </div>
               </button>
             </h3>
-            <div id="collapseCourses" class="accordion-collapse collapse" aria-labelledby="courses" data-bs-parent="#mainContent">
-              <div class="accordion-body">
+            <div id="collapseCourses" className="accordion-collapse collapse" aria-labelledby="courses" data-bs-parent="#mainContent">
+              <div className="accordion-body">
                 <Swiper
-                  modules={[Pagination]}
+                  modules={[Navigation, Pagination]}
                   spaceBetween={10}
                   slidesPerView={1}
-                  pagination={{ clickable: true }}
                   style={{backgroundColor:"lightgray", textAlign:"center"}}                      
                 >
+                  <SwiperNavBtn /> 
                   <SwiperSlide>
                     <div className='row g-0 slide'>
                       <div className='col-12 col-sm-4 align-self-center'>
@@ -57,7 +58,6 @@ function Certifications() {
                         <br></br> 
                       </div>
                     </div>
-                    <br></br>
                   </SwiperSlide>
                   <SwiperSlide >
                     <div className='row g-0 slide'>
@@ -84,7 +84,6 @@ function Certifications() {
                         <br></br> 
                       </div>
                     </div>
-                    <br></br>
                   </SwiperSlide>
                   <SwiperSlide >
                     <div className='row g-0 slide'>
@@ -111,7 +110,6 @@ function Certifications() {
                         <br></br> 
                       </div>
                     </div>
-                    <br></br>
                   </SwiperSlide>
                   <SwiperSlide >
                     <div className='row g-0 slide'>
@@ -138,7 +136,6 @@ function Certifications() {
                         <br></br> 
                       </div>
                     </div>
-                    <br></br>
                   </SwiperSlide>
                   <SwiperSlide >
                     <div className='row g-0 slide'>
@@ -165,7 +162,6 @@ function Certifications() {
                         <br></br> 
                       </div>
                     </div>
-                    <br></br>
                   </SwiperSlide>
                   <SwiperSlide >
                     <div className='row g-0 slide'>
@@ -192,7 +188,6 @@ function Certifications() {
                         <br></br> 
                       </div>
                     </div>
-                    <br></br>
                   </SwiperSlide>
                 </Swiper>                
               </div>

@@ -24,16 +24,16 @@ function Summary() {
             <div className='col-12 col-md-12 align-self-center'>
                 <div className='data-block' style={{marginTop:"1%"}}>
                     <p>
-                        A seasoned business analyst, an AI practitioner and a proficient coder is what I bring to the table. 
+                        Proficient and results-oriented Data Scientist with a solid foundation in statistical modeling, 
+                        machine learning, and data analysis. Possessing advanced proficiency in SQL, Python & React, 
+                        I bring a proven track record of extracting actionable insights from complex datasets. 
+                        My expertise extends to data preprocessing, feature engineering, and the development of predictive models 
+                        for various business applications.
                     </p>
                     <p>
                         I aim to leverage the scale of enterprise data with the powers of modern computing to revise 
                         understanding of the business environment and redesign processes with AI powered insights. 
-                    </p>
-                    <p>
-                        Nearly 6yrs of industry experience and nearly 3yrs experience in data mining, ETL processes, data science algorithms, frontend development
-                        and cloud deployment using SQL, Python, JavaScript & Kubernetes.
-                    </p>         
+                    </p>        
                 </div>             
             </div>
             <div className='col-12 col-md-12 align-self-center'>
