@@ -1,5 +1,5 @@
 import React from 'react';
-import { Swiper, SwiperSlide, useSwiper  } from 'swiper/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper';
 
 import SwiperNavBtn from './c5_Swiper_NavBtns';
@@ -16,6 +16,7 @@ import appr9 from '../assets/recognitions/PeerRecog_Appr_3.png'
 import appr10 from '../assets/recognitions/IBM_Entrepreneur_Award.png'
 import appr11 from '../assets/recognitions/SAMMY_Award.png'
 import appr12 from '../assets/recognitions/SAMMY_Award.jpg'
+import appr13 from '../assets/recognitions/PG_DS.png'
 
 import '../css/App.css'
 import 'swiper/css/bundle';
@@ -54,11 +55,24 @@ function WorkAchievements() {
                     spaceBetween={10}
                     slidesPerView={numSlidesPerView}
                     style={{backgroundColor:"lightgray"}}                      
-                  >   
-                    <SwiperNavBtn />                               
+                  > 
+                    <SwiperNavBtn />
+                    <SwiperSlide className="slide">
+                      <h5 style={{textAlign:"center"}}><b>POST GRADUATE COURSE IN DATA SCIENCE</b></h5>
+                      <h6 style={{textAlign:"center", textDecoration:"underline"}}>CALTECH (via Simplilearn)</h6>
+                      <hr></hr>
+                      <p style={{textAlign:"center"}}>
+                        <b>Modules</b> - Descriptive & Inferential Statistics, Exploratory Data Analysis, Supervised & Unsupervised Learning, 
+                        Ensemble Learning, Data Visualization
+                      </p>
+                      <div className='flex-elem'>
+                        <img src={appr13} alt='' className='recognition'></img>
+                      </div>
+                    </SwiperSlide>                     
                     <SwiperSlide className="slide">
                       <h5 style={{textAlign:"center"}}><b>INDUSTRY AWARD - SAMMY</b></h5>
                       <h6 style={{textAlign:"center", textDecoration:"underline"}}>Sales Intelligence SlackBot</h6>
+                      <hr></hr>
                       <div className='flex-elem'>
                         <img src={appr11} alt='' className='recognition'></img>
                       </div>
@@ -68,7 +82,8 @@ function WorkAchievements() {
                     </SwiperSlide>  
                     <SwiperSlide className="slide">
                       <h5 style={{textAlign:"center"}}><b>ENTREPRENEUR AWARD</b></h5>
-                      <h6 style={{textAlign:"center", textDecoration:"underline"}}>Sales Intelligence SlackBot</h6>                      
+                      <h6 style={{textAlign:"center", textDecoration:"underline"}}>Sales Intelligence SlackBot</h6> 
+                      <hr></hr>                     
                       <div className='flex-elem'>
                         <img src={appr10} alt='' className='recognition'></img>
                       </div>
@@ -76,6 +91,7 @@ function WorkAchievements() {
                     <SwiperSlide className="slide">
                       <h5 style={{textAlign:"center"}}><b>WORLDWIDE PROJECT LAUNCH</b></h5>
                       <h6 style={{textAlign:"center", textDecoration:"underline"}}>Sales Intelligence SlackBot</h6>
+                      <hr></hr>
                       <div className='flex-elem'>
                         <img src={appr2} alt='' className='recognition'></img>
                       </div>
@@ -83,6 +99,7 @@ function WorkAchievements() {
                     <SwiperSlide className="slide">
                       <h5 style={{textAlign:"center"}}><b>WORLDWIDE PROJECT LAUNCH</b></h5>
                       <h6 style={{textAlign:"center", textDecoration:"underline"}}>Sales Intelligence SlackBot</h6>
+                      <hr></hr>
                       <div className='flex-elem'>
                         <img src={appr1} alt='' className='recognition'></img>
                       </div>
@@ -90,6 +107,7 @@ function WorkAchievements() {
                     <SwiperSlide className="slide">
                       <h5 style={{textAlign:"center"}}><b>PROJECT CONTRIBUTION</b></h5>
                       <h6 style={{textAlign:"center", textDecoration:"underline"}}>Patterns of Interest</h6>
+                      <hr></hr>
                       <div className='flex-elem'>
                         <img src={appr4} alt='' className='recognition'></img>
                       </div>
@@ -97,35 +115,41 @@ function WorkAchievements() {
                     <SwiperSlide className="slide">
                       <h5 style={{textAlign:"center"}}><b>TEAM CONTRIBUTION</b></h5>
                       <h6 style={{textAlign:"center", textDecoration:"underline"}}>Patterns of Interest</h6>
+                      <hr></hr>
                       <div className='flex-elem'>
                           <img src={appr3} alt='' className='recognition'></img>
                       </div>
                       <br></br>
                       <h5 style={{textAlign:"center"}}><b>TEAM CONTRIBUTION</b></h5>
                       <h6 style={{textAlign:"center", textDecoration:"underline"}}>Project Yield</h6>
+                      <hr></hr>
                       <div className='flex-elem'>
                           <img src={appr5} alt='' className='recognition'></img>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide">
                       <h5 style={{textAlign:"center"}}><b>TEAM TRAINING SESSION</b></h5>
+                      <hr></hr>
                       <div className='flex-elem'>
                         <img src={appr6} alt='' className='recognition'></img>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide">
                       <h5 style={{textAlign:"center"}}><b>TEAM CONTRIBUTION</b></h5>
+                      <hr></hr>
                       <div className='flex-elem'>
                         <img src={appr8} alt='' className='recognition'></img>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide">
                       <h5 style={{textAlign:"center"}}><b>PEER RECOGNITION</b></h5>
+                      <hr></hr>
                       <div className='flex-elem'>
                         <img src={appr7} alt='' className='recognition'></img>
                       </div>
                       <br></br>
                       <h5 style={{textAlign:"center"}}><b>TEAM CONTRIBUTION</b></h5>
+                      <hr></hr>
                       <div className='flex-elem'>
                         <img src={appr9} alt='' className='recognition'></img>
                       </div>

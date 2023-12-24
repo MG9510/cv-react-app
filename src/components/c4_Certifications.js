@@ -4,6 +4,7 @@ import { Navigation, Pagination } from 'swiper';
 
 import SwiperNavBtn from './c5_Swiper_NavBtns';
 import coursera from '../assets/images/coursera.png'
+import caltech from '../assets/recognitions/PG_DS.png'
 
 import '../css/App.css';
 import 'swiper/css/bundle';
@@ -33,6 +34,32 @@ function Certifications() {
                   style={{backgroundColor:"lightgray", textAlign:"center"}}                      
                 >
                   <SwiperNavBtn /> 
+                  <SwiperSlide>
+                    <div className='row g-0 slide'>
+                      <div className='col-12 col-sm-4 align-self-center'>
+                        <div className='flex-elem'>
+                          <img src={caltech} alt='' className='certi'></img>
+                        </div>
+                      </div>
+                      <div className='col-12 col-sm-8 align-self-center'>
+                        <br></br>
+                        <div className='data-block' style={{marginLeft:"1%"}}>
+                          <div className='header'>
+                            <h4 className='header-txt'><b>CALTECH | Post Graduate Program</b></h4>
+                            <hr></hr>
+                            <h5 className='header-txt'>Jun 2023 - Dec 2023</h5>
+                            <br></br>
+                            <h5 className='header-txt'>Function - Data Science</h5>
+                            <hr></hr>
+                            <a href='https://success.simplilearn.com/ae0bed00-d5a8-409f-b0d1-0e15ce8f0b13' target='_'>
+                              <h5 style={{textDecoration:"underline", color:"blue"}}>View certificate</h5>
+                            </a>              
+                          </div>
+                        </div> 
+                        <br></br> 
+                      </div>
+                    </div>
+                  </SwiperSlide>
                   <SwiperSlide>
                     <div className='row g-0 slide'>
                       <div className='col-12 col-sm-4 align-self-center'>

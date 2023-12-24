@@ -289,9 +289,14 @@ a, a:hover {
     height: 95%;
   }
 
-  .education, .certi {
+  .education {
     width: 90%;
     height: 90%;  
+  }
+
+  .certi {
+    width: 100%;
+    height: 100%;  
   }
 
   .data-block {
@@ -338,13 +343,18 @@ a, a:hover {
   }
 
   .recognition {
-    width: 18%;
-    height: 18%;
+    width: 40%;
+    height: 40%;
   }
 
-  .education, .certi {
-    width: 50%;
-    height: 50%;  
+  .education {
+    width: 45%;
+    height: 45%;  
+  }
+
+  .certi {
+    width: 60%;
+    height: 60%;  
   }
 
   .header {
